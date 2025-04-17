@@ -1,0 +1,7 @@
+﻿18/4/2025:
+    - Tạo các models: Book, User ✅
+    - Implement phương thức: Thêm sách 🔃
+
+Todo: Hoàn thành nốt phương thức thêm sách.    
+
+    

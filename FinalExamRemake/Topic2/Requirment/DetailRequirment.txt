@@ -1,0 +1,54 @@
+﻿Đề 2: QUẢN LÝ THƯ VIỆN
+# QUẢN LÝ SÁCH
+    - CRUD thông tin sách
+    - Tìm kiếm sách theo (id, tên, ...)
+
+# QUẢN LÝ NGƯỜI DÙNG
+    - CRUD thông tin người dùng
+    - Tìm kiếm người dùng theo (id, tên, ...)
+
+# PHÂN QUYỀN NGƯỜI DÙNG
+    -  Người dùng bình thường:
+        + Không cần đăng nhập: xem, tìm kiếm sách nhưng không 
+        được dùng chức năng mượn sách.
+    - Người dùng cao cấp:
+        + Có quyền sử dụng giống user bình thường và được phép sử dụng
+        chức năng mượng sách
+        + Sau khi đăng nhập: Thuê được sách
+    - Quản trị viên (Admin): 
+        + """FULL OPTION"""
+    
+# CHI TIẾT THÔNG TIN SÁCH
+    - Mã số (isbn),
+    - Tên sách (title),
+    - Chủ đề (subjet), 
+    - Tác giả (author),
+    - Nhà xuất bản (publisher),
+    - Ngày tháng xuất bảng (date),
+    - Số trang (pages),
+    - Số bảng copy trong thư viện (copies)
+
+# CHI TIẾT THÔNG TIN CỦA USER
+    - Mã người dụng (userid),
+    - Tên truy cập (username),
+    - Mật khẩu (password),
+    - Cấp của người dùng (user Ranking)
+    
+# KHÁI QUÁT CHỨC NĂNG.
+    - Menu đăng nhập.
+    - Chọn chức năng.
+    - Thoát chương trình
+    
+# CHI TIẾT CHỨC NĂNG.
+    - Menu đăng nhập:
+        + Đăng nhập
+        + Đăng ký
+        + Tiếp tục dưới dạng "user bình thường".
+    - Menu chức năng:
+        + Không đăng nhập: 
+            > Xem thông tin sách
+        + Đã đăng nhập:
+            > Xem thông tin sách
+            > Thuê sách
+        + Quản trị viên:
+            > """FULL OPTION"""
