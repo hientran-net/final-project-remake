@@ -1,4 +1,4 @@
-# final-project-remake
+# Final Project Remake
 
 This repository contains a remake of my final assignments from the **Programming Techniques** course (Kỹ thuật lập trình - KTLT), focusing on code clarity and structure.
 
